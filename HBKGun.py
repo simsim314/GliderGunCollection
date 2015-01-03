@@ -124,15 +124,15 @@ def ReadNext(data, recog):
 def ReadData(recog):
 	data = []
 	
-	if os.path.exists('hbkR.data'):
-		with open('hbkR.data', 'r') as f:
-			return json.load(f)
+	#if os.path.exists('hbkR.data'):
+	#	with open('hbkR.data', 'r') as f:
+	#		return json.load(f)
 
 	while ReadNext(data, recog):
 		i = 1
 	
-	with open('hbkR.data', 'wb') as f:
-		json.dump(data, f)
+	#with open('hbkR.data', 'wb') as f:
+	#	json.dump(data, f)
 		
 	return data
 
