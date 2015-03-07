@@ -12,6 +12,8 @@ Last improvements details
 
 `p485 - dvgrn`
 
+`p496 - Kazyan`
+
 `p512 - dvgrn & Herik`
 
 `p588 - simsim314`
